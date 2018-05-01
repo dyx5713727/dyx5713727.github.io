@@ -1,0 +1,15 @@
+<html>
+<head>
+<title>1111</title>
+</head>
+<body>
+<a href="javascript:popUp('http://www.baidu.com/ ');">baidu1</a>
+<a href="#" onclick="popUp('http://www.baidu.com/ ');return false;">baidu2</a>
+<a href="http://www.baidu.com/"onclick="popUp(this.herf); return false;">baidu3</a>
+<script>
+function popUp(winURL){
+  window.open(winURL,"popup","width=320,height=480");
+}
+</script>
+</body>
+</html>
